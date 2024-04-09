@@ -1,3 +1,17 @@
+/*Some necessary adjustments*/
+h1,
+body,
+html,
+main {
+  margin: 0;
+}
+
+/*Import the font and set the default size*/
+html {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 180px
+}
+
 /* CSS RESET - do not remove */
 /* Reset default browser styles and provide a consistent starting point */
 html {
@@ -49,7 +63,7 @@ h3 {
 }
 
 .apple-hero {
-  background-image: url(./../images/apple-pie.jpg);
+  background-image: url(./../images/soup.jpg);
   background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
